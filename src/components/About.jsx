@@ -27,7 +27,7 @@ const About = () => {
           </span>
         </p>
         <button type="button" className="btn2">
-          <a href="https://drive.google.com/file/d/1BmAaNYFrU0prcXbHI_a8P2deT0e6Ogpr/view">
+          <a   target="blank" href="https://drive.google.com/file/d/1BmAaNYFrU0prcXbHI_a8P2deT0e6Ogpr/view">
             My CV
           </a>
         </button>

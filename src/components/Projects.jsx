@@ -26,16 +26,16 @@ const Projects = () => {
 
                 <div className="btns">
                   <button type="button" className="btn2">
-                    <a href={webUrl}>See Live</a>
+                    <a  target="blank"  href={webUrl}>See Live</a>
                   </button>
                   <button type="button" className="btn2">
-                    <a href={githubUrl}>Source Code</a>
+                    <a  target="blank"  href={githubUrl}>Source Code</a>
                   </button>
                 </div>
               </div>
               <div className="projectImg" data-aos="fade-left">
                 <a href={webUrl} >
-                  <img src={img} alt=""  className="img" />
+                  <img   target="blank" src={img} alt=""  className="img" />
                 </a>
               </div>
             </div>

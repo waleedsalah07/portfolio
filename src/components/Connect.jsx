@@ -15,7 +15,7 @@ const Connect = () => {
             let { id, url, icon }=link ;
             return(
               <div key={id} className="link">
-              <a href={url}>{icon}</a>
+              <a  target="blank" href={url}>{icon}</a>
             </div>
             )
           })}
