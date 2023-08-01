@@ -34,8 +34,8 @@ const Projects = () => {
                 </div>
               </div>
               <div className="projectImg" data-aos="fade-left">
-                <a href={webUrl} >
-                  <img   target="blank" src={img} alt=""  className="img" />
+                <a  target="blank" href={webUrl} >
+                  <img    src={img} alt=""  className="img" />
                 </a>
               </div>
             </div>
